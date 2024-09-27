@@ -42,7 +42,6 @@ char snake = 'O';
 int snake_x[MAX_LEN_SNAKE] = { 0 };
 int snake_y[MAX_LEN_SNAKE] = { 0 };
 int snake_len = 1;
-
 int food_x = 1 + (rand() % (WIDTH - 3));
 int food_y = 1 + (rand() % (HEIGHT - 2));
 char food = '*';
